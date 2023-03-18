@@ -3,7 +3,10 @@
 )](https://jihulab.com/nonebot2-wei-z/nonebot-cli-docker/-/releases)
 [![build status](https://img.shields.io/gitlab/pipeline-status/nonebot2-wei-z/nonebot-cli-docker?branch=main&gitlab_url=https%3A%2F%2Fjihulab.com%2F)](https://jihulab.com/nonebot2-wei-z/nonebot-cli-docker/-/pipelines)
 ## Description
-一个装了nonebot cli和nonebot-plugin-gocqhttp的docker容器，具有基本的python环境，可以用来：
+#### 一分钟通过Docker部署Nonebot2-QQ机器人
+（不含下载安装docker时间）
+
+一个装了nonebot cli和nonebot-plugin-gocqhttp的docker容器，可以快速拥有一个具有完备nonebot2环境，可以用来：
 1. 快速创建一个完整的nb-cli环境
 2. 安装插件
 3. 启动机器人？
