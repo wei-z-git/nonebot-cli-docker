@@ -27,7 +27,7 @@ docker run --name my_bot -it -p 8082:8080 -e HOST="0.0.0.0"  -e GOCQ_ACCOUNTS='[
 - -p 8082:8080 将8082替换为自己希望访问gocqhttp-plugin webUI的端口
 ### 2.启动机器人
 ```
-python bot.py
+nb run --reload
 ```
 ### 3.访问gocqhttp-plugin webUI
 `localhost:8082/go-cqhttp/`
