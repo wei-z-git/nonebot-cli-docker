@@ -25,6 +25,7 @@ docker run --name my_bot -it -p 8082:8080 -e HOST="0.0.0.0"  -e GOCQ_ACCOUNTS='[
 ```
 - 123456 替换为QQ号
 - -p 8082:8080 将8082替换为自己希望访问gocqhttp-plugin webUI的端口
+- --name my_bot是容器名
 `ps.由于某些未知原因有时候GOCQ_ACCOUNTS似乎环境变量不生效，可以直接在.env里修改`
 ### 2.启动机器人
 ```
