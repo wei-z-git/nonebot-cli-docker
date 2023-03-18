@@ -40,7 +40,7 @@ https://nb2.baka.icu/docs/start/installation
 https://www.runoob.com/docker/docker-container-usage.html
 
 ## Roadmap
-[x] xxx
+- [x] xxx
 
 
 ## License
