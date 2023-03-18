@@ -34,7 +34,9 @@ nb run --reload
 ### 3.访问gocqhttp-plugin webUI
 `localhost:8082/go-cqhttp/`
 ### 4.退出机器人
-`exit`
+- 后台运行：关了终端就行
+- 销毁：终端输入exit，会销毁容器
+
 ### 5. 其他命令
 - Nonebot脚手架命令参考Nonebot官网：
 https://nb2.baka.icu/docs/start/installation
