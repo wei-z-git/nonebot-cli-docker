@@ -21,16 +21,16 @@
 ### 1.启动容器
 在CMD或powershell或把bash里执行
 ```
-docker run -it -p 8080:80  -e GOCQ_ACCOUNTS="[{ \"uin\": \"123456\",\"protocol\":2}]" registry.jihulab.com/nonebot2-wei-z/nonebot-cli-docker bash
+docker run -it -p 8082:8080 -e HOST="0.0.0.0" -e GOCQ_ACCOUNTS="[{ \"uin\": \"123456\",\"protocol\":2}]" registry.jihulab.com/nonebot2-wei-z/nonebot-cli-docker bash
 ```
 - 123456 替换为QQ号
-- -p 8080:80 将8080替换为自己希望访问gocqhttp-plugin webUI的端口
+- -p 8082:8080 将8082替换为自己希望访问gocqhttp-plugin webUI的端口
 ### 2.启动机器人
 ```
 nb run -reload
 ```
 ### 3.访问gocqhttp-plugin webUI
-`localhost:8080/go-cqhttp/`
+`localhost:8082/go-cqhttp/`
 ### 4.退出机器人
 `exit`
 ### 5. 其他命令
