@@ -6,4 +6,3 @@ RUN pip install nb-cli nonebot2[fastapi] nonebot-plugin-gocqhttp \
 COPY ./app /app
 
 RUN nb plugin install nonebot-plugin-gocqhttp
-

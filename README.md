@@ -1,8 +1,9 @@
 # nonebot-cli-docker
 
 一个装了nonebot cli和nonebot-plugin-gocqhttp的docker容器，具有基本的python环境，可以用来：
-1. 一键启动机器人
+1. 快速创建一个完整的nb-cli环境
 2. 安装插件
+3. 启动机器人？
 
 不适合（但也可以）:
 1. 开发自己插件
