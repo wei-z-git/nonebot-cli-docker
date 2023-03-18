@@ -1,3 +1,9 @@
 FROM python:3.10
-RUN pip install nb-cli nonebot-plugin-gocqhttp \
+WORKDIR /app
+RUN pip install nb-cli nonebot2[fastapi] nonebot-plugin-gocqhttp \
     -i https://pypi.tuna.tsinghua.edu.cn/simple 
+
+COPY ./app /app
+
+RUN nb plugin install nonebot-plugin-gocqhttp
+
