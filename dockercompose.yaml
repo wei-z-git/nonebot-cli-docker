@@ -1,0 +1,20 @@
+version: '1'
+services:
+
+  nonebot-cli:
+    image: registry.cn-hangzhou.aliyuncs.com/wei-z-git/nonebot-cli-docker:latest
+    environment:
+      HOST: "0.0.0.0"
+
+  napcat:
+        environment:
+            - ACCOUNT=<机器人qq>
+            - WS_ENABLE=true
+            - WS_URLS=["ws://nonebot-cli:80/onebot/v11/"]
+        ports:
+            - 3001:3001
+            - 6099:6099
+        container_name: napcat
+        network_mode: bridge
+        restart: always
+        image: registry.cn-hangzhou.aliyuncs.com/wei-z-git/napcat-docker:latest
